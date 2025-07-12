@@ -37,3 +37,5 @@ with prod as (
 )
 
 select * from finaljoin 
+
+
