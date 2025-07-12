@@ -1,4 +1,4 @@
-# dbt Project - Northwind Model (Redshift Serverless)
+# dbt Project - Northwind Model
 
 This project uses dbt to transform data from the Northwind model in Redshift Serverless, implementing a denormalized analytics-ready schema with yearly partitioning.
 
