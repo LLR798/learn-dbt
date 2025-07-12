@@ -1,5 +1,3 @@
-
-
 with calc_employees as (
     select 
         -- poderia usar o || '' || para concatenar também
