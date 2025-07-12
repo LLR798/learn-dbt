@@ -54,6 +54,29 @@ The Northwind database contains:
   - `northwind_2020` (orders from 2020)
   - `northwind_2021` (orders from 2021) 
   - `northwind_2022` (orders from 2022)
+ 
+## Data Quality Tests
+
+### Custom Test: Check Duplicates
+Created a custom test `checkduplicates` to verify data integrity in the customers staging model:
+
+**Location:**
+```
+tests
+├── checkduplicates.sql
+```
+
+### How to Run:
+
+#### Run all tests
+```
+dbt test
+```
+
+#### Run specific duplicate check
+```
+dbt test --select test_type:singular test_name:checkduplicates
+```
 
 ## Project Structure:
 ```
